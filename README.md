@@ -6,11 +6,17 @@ Note: Alex's project works for personal accounts. This project works for busines
 
 ## Files
 client.py         from Alex Reed's work (minor changes)
+
 session.py        from Alex Reed's work (minor changes)
+
 write_config.py   from Alex Reed's work (minor changes)
+
 presence.py       imitation of Alex Reed's class format
+
 test_client.py    contains the fetching formula for teams status
+
 main_status.py    main code to run - contains TKinter window and initiates all other files.
+
 
 ## Functional Overview
 This is essentially a Daemon that continually updates the teams status. The goal would be to use this for a hardware application in lieu of TKinter. I plan to port this to be used on an ESP32.
