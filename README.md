@@ -1,7 +1,7 @@
 # Teams_Status
 Displays TKinter window Green if not in call and red if in call on teams.
 
-This project borrows heavily from the work done by Alex Reed on areed1192/ms-graph-python-client. All credit for development should go to him.
+This project borrows heavily from the work done by Alex Reed (Sigma Coding) on areed1192/ms-graph-python-client. All credit for development should go to him.
 
 From his project, most scopes were deleted and the API version was altered to "beta" instead of "v1.0". A presence class was written in the format of his other classes and all other classes were removed.
 
@@ -33,5 +33,7 @@ Run write_config.py. this should create a "config.ini" file in the same director
 
 ## First Run
 Run main_status.py. the terminal will give you a URL (and open a blank TKinter window). Leaving the TKinter window open and while logged into your microsoft account, go to this url in your browser. Provide approval for any permissions, then once the redirect fails out, copy the url from the address bar in chrome and paste it into the terminal and press enter. Alex Reed has a youtube video showing this process which is highly recommended. 
+
+https://www.youtube.com/watch?v=bBslvqBCjAA
 
 Once you have pasted the url and pressed enter, the TKinter window should change color to match your status. It should update every 5 seconds.
